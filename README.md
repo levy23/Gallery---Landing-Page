@@ -9,8 +9,8 @@ html, CSS, JavaScript, Bootstrap
 
 # Screen:
 
-[![N|Solid](http://fcbarcafc.cba.pl/landing-page.png)
+![N|Solid](http://fcbarcafc.cba.pl/landing-page.png)
 
 # Screen mobile:
 
-[![N|Solid](http://fcbarcafc.cba.pl/landing-page-mobile.png)
+![N|Solid](http://fcbarcafc.cba.pl/landing-page-mobile.png)
