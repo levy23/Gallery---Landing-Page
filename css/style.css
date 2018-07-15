@@ -230,6 +230,10 @@ textarea{
 }
 
 /*RWD*/
+
+.nav-rs ul{
+    display: table-cell;
+}
 /*najwieksza rozdzielczosc laptopów*/
 @media only screen and (max-width: 1800px) {
     .nav-rs{ display: none}
@@ -239,19 +243,25 @@ textarea{
 
 /*średni telefon lub IPad*/
 @media only screen and (max-width: 680px) {
-    .container {width: 400px}
-    .menu{ display: none;
-    }
+    .container {width: 500px;}
+    .menu{ display: none;}
     .nav-rs {display: block}
-    .news { width: 400px; height: 700px}
-    .news-gl{ float: left; width: 400px;}
-    .project{ width: 400px; height: 100%}
+    .news { width: 450px;height: 625px;padding-top: 230px}
+    .news-gl{float: left; width: 450px; height: 480px}
+    .project{ width: 450px; height: 100%; padding-top: 230px}
     .project-gl {height: 100%}
     .project-conten{ height: 100%}
-    .featured-gl{ height: 100%}
-    .contact-gl{ width: 400px}
+    .featured{ height:250px;padding-top: 230px}
+    .featured-gl{ height: 100%;}
+    .contact{padding-top: 230px}
+    .contact-gl{ width: 450px}
     .formulage { display: none}
     .contact-gl .text { display: none}
+    .img-text {display: block}
+    .news-img{ width: 100%}
+    .news-img2{ display: none}
+    .header-conten{ height: 250px;}
+    .img3 {display: none}
 
 }
 
