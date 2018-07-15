@@ -69,7 +69,7 @@ li{
 
 .news{
     padding-top: 350px;
-    height: 700px;
+    height: 500px;
 }
 
 .news-gl{
@@ -81,11 +81,13 @@ li{
 }
 
 .news-img{
-    width: 500px;
+    width: 60%;
+    height: 60%;
 }
 
 .news-img2{
-    width: 400px;
+    width: 40%;
+    height: 40%;
 }
 
 .img-text{
@@ -127,12 +129,14 @@ li{
 /*project*/
 
 .project{
+    height: 470px;
     display: flex;
     padding-top: 350px;
     text-align: center;
 }
 
 .project-gl{
+    height: 400px;
     padding: 20px;
     position: relative;
     background-color: white;
@@ -146,5 +150,95 @@ li{
     padding: 10px;
     width: 200px;
 }
+
+/*featured*/
+
+.featured{
+    height: 470px;
+    display: flex;
+    padding-top: 350px;
+    text-align: center;
+}
+
+.featured-gl{
+    display: flex;
+    height: 400px;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-top: 20px solid #f6bc42;
+    box-shadow: 2px 2px 3px;
+}
+
+.featured-gl img{
+    width: 60%;
+}
+
+.featured-gl .text{
+    text-align: left;
+}
+
+.text span{
+    color: #f6bc42;
+}
+
+/*contact*/
+
+.contact{
+    height: 305px;
+
+    padding-top: 350px;
+    text-align: center;
+}
+
+.contact-gl{
+    display: flex;
+    height: 250px;
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-top: 20px solid #f6bc42;
+    box-shadow: 2px 2px 3px;
+}
+
+.contact-gl .text{
+    width: 250px;
+}
+
+.formu{
+    margin: 5px;
+    width: 255px;
+    height: 30px;
+    background-color: #f4f4f4;
+    border: none;
+}
+
+textarea{
+    background-color: #f4f4f4;
+    border: none;
+    width: 550px;
+}
+
+.formulage{
+    padding-top: 5px;
+    width: 560px;
+    display: flex;
+}
+
+/*RWD*/
+/*najwieksza rozdzielczosc laptopów*/
+@media only screen and (max-width: 1800px) {
+
+}
+
+/*średni telefon lub IPad*/
+@media only screen and (max-width: 680px) {
+
+}
+
 
 

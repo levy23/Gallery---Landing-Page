@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="pl" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scrol.js"></script>
     <title>landing-page</title>
 </head>
 <body>
@@ -13,31 +16,31 @@
             <div class="image-icon">
             <img src="img/home-icon.png">
             </div>
-            <li><a href="#">welcome</a></li>
+            <li><a href="#about">welcome</a></li>
         </ul>
         <ul>
             <div class="image-icon">
             <img src="img/about-icon.png">
             </div>
-            <li><a href="#">about us</a></li>
+            <li><a href="#about">about us</a></li>
         </ul>
         <ul>
             <div class="image-icon">
             <img src="img/featured-icon.png">
             </div>
-            <li><a href="#">featured</a></li>
+            <li><a href="#featured">featured</a></li>
         </ul>
         <ul>
             <div class="image-icon">
             <img src="img/projects-icon.png">
             </div>
-            <li><a href="#">projects</a></li>
+            <li><a href="#project">projects</a></li>
         </ul>
         <ul>
             <div class="image-icon">
             <img src="img/contact-icon.png">
             </div>
-            <li><a href="#">contact us</a></li>
+            <li><a href="#contact">contact us</a></li>
         </ul>
     </nav>
     <div class="header">
@@ -46,6 +49,7 @@
     </div>
 </div>
 </div>
+<section id="about">
 <div class="container">
     <div class="news">
         <div class="news-gl">
@@ -71,12 +75,10 @@
 </div>
 
 <div class="container">
-    <footer>
     <div class="ft">
-        <p>Copyright © 2018 | Wojciech Lewandowski</p>
     </div>
-    </footer>
 </div>
+</section>
 <div class="header-conten">
     <div class="container">
         <nav class="menu">
@@ -84,31 +86,31 @@
                 <div class="image-icon">
                     <img src="img/home-icon.png">
                 </div>
-                <li><a href="#">welcome</a></li>
+                <li><a href="#about">welcome</a></li>
             </ul>
             <ul>
                 <div class="image-icon">
                     <img src="img/about-icon.png">
                 </div>
-                <li><a href="#">about us</a></li>
+                <li><a href="#about">about us</a></li>
             </ul>
             <ul>
                 <div class="image-icon">
                     <img src="img/featured-icon.png">
                 </div>
-                <li><a href="#">featured</a></li>
+                <li><a href="#featured">featured</a></li>
             </ul>
             <ul>
                 <div class="image-icon">
                     <img src="img/projects-icon.png">
                 </div>
-                <li><a href="#">projects</a></li>
+                <li><a href="#project">projects</a></li>
             </ul>
             <ul>
                 <div class="image-icon">
                     <img src="img/contact-icon.png">
                 </div>
-                <li><a href="#">contact us</a></li>
+                <li><a href="#contact">contact us</a></li>
             </ul>
         </nav>
         <div class="header">
@@ -117,7 +119,9 @@
         </div>
     </div>
 </div>
+<section id="project">
 <div class="container">
+    <div class="project-conten">
     <div class="project">
         <div class="project-gl">
             <a href="#"> <img class="project-img" src="img/project-item-01.jpg"></a>
@@ -129,7 +133,137 @@
             <a href="#"> <img class="project-img" src="img/project-item-07.jpg"></a>
             <a href="#"> <img class="project-img" src="img/project-item-08.jpg"></a>
         </div>
+    </div>
+</div>
+</div>
+<div class="container">
+        <div class="ft"></div>
+</div>
+</section>
+<div class="header-conten">
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <div class="image-icon">
+                    <img src="img/home-icon.png">
+                </div>
+                <li><a href="#about">welcome</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/about-icon.png">
+                </div>
+                <li><a href="#about">about us</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/featured-icon.png">
+                </div>
+                <li><a href="#featured">featured</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/projects-icon.png">
+                </div>
+                <li><a href="#project">projects</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/contact-icon.png">
+                </div>
+                <li><a href="#contact">contact us</a></li>
+            </ul>
+        </nav>
+        <div class="header">
+            <h1>FEATURED</h1>
+            <p>WE PRODUCE FEATURED PRODUCT EVERY WEEK</p>
+        </div>
+    </div>
+</div>
+<section id="featured">
+<div class="container">
+    <div id="featured" class="featured-conten">
+        <div class="featured">
+            <div class="featured-gl">
+                <img src="img/left-feature-image.png">
+                <div class="text">
+                    <h3>FEATURED PRODUCT: <span>NEWLINE</span></h3>
+                <p>Lorem ipsum dolor amet, consecte adipiscing elit, quisque dictum convallis mi. In dapibus auctor dictum donec mattis quis eros ultricies feugiat. Morbi congue faucibus mi, ague blandit curabitur ac lacinia.</p>
+                <button class="btn">Discover More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <footer>
+        <div class="ft"></div>
+    </footer>
+</div>
+</section>
 
+<div class="header-conten">
+    <div class="container">
+        <nav class="menu">
+            <ul>
+                <div class="image-icon">
+                    <img src="img/home-icon.png">
+                </div>
+                <li><a href="#about">welcome</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/about-icon.png">
+                </div>
+                <li><a href="#about">about us</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/featured-icon.png">
+                </div>
+                <li><a href="#featured">featured</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/projects-icon.png">
+                </div>
+                <li><a href="#project">projects</a></li>
+            </ul>
+            <ul>
+                <div class="image-icon">
+                    <img src="img/contact-icon.png">
+                </div>
+                <li><a href="#contact">contact us</a></li>
+            </ul>
+        </nav>
+        <section id="contact"></section>
+        <div class="header">
+            <h1>CONTACT US</h1>
+            <p>YOU'LL BE RESPONDED WITHIN 48 HRS</p>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div id="contact" class="contact-conten">
+        <div class="contact">
+            <div class="contact-gl">
+                <div class="text"><p>Maecenas imperdiet sagittis lacus, ut consequat velit iaculis id. Praesent eu consequat urna. Morbi justo dolor, ornare sed lorem et, auctor iaculis ligula.
+
+                    3344 Donec mollis libero
+                    at metus luctus 10110</p>
+                </div>
+                    <div class="formulage">
+                        <form action="mailto:twój_adres_poczty@domena" method="post" enctype="text/plain"><div>
+                            <input class="formu" name="name" value="name"/>
+                            <input class="formu" name="e-mail" type="email" value="e-mail" />
+                            <textarea name="message" cols="50" rows="10">message</textarea>
+                            <input class="btn" type="submit" value="send" />
+                            <input class="btn" type="reset" value="clear" />
+                        </div></form>
+
+                    </div>
+            </div>
+        </div>
     </div>
 </div>
 <div class="container">
@@ -140,5 +274,7 @@
     </footer>
 </div>
 
+
 </body>
+
 </html>
