@@ -1,0 +1,150 @@
+.container{
+    width: 1400px;
+    font-family: "Helvetica Neue";
+}
+
+/*Menu*/
+
+.menu{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li a:hover{
+    color: #f6bc42;
+}
+
+li{
+    margin-top: 10px;
+}
+
+.image-icon{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    background-color: #f6bc42;
+    border-radius: 50px;
+}
+
+.image-icon img{
+    margin-top: 20px;
+}
+
+/*header*/
+
+.header{
+    text-align: center;
+    padding: 50px;
+}
+
+.header h1{
+    text-transform: uppercase;
+    color: white;
+}
+
+.header p{
+    color: #f6bc42;
+    text-transform: uppercase;
+}
+
+.header-conten{
+    height: 450px;
+    background-image: url("../img/prove-bg.png");
+    background-size: cover;
+    position: absolute;
+}
+
+/*news*/
+
+.news{
+    padding-top: 350px;
+    height: 700px;
+}
+
+.news-gl{
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    border-top: 20px solid #f6bc42;
+    box-shadow: 2px 2px 3px;
+}
+
+.news-img{
+    width: 500px;
+}
+
+.news-img2{
+    width: 400px;
+}
+
+.img-text{
+    background-color: white;
+    display: flex;
+}
+
+.text h3{
+    text-transform: uppercase;
+}
+
+.text p{
+    color: #8e8e8e;
+}
+
+.text{
+    margin: 25px;
+}
+
+.btn{
+    width: 120px;
+    height: 40px;
+    background-color: #f6bc42;
+    border-radius: 5px;
+}
+
+/*footer*/
+
+.ft{
+    height: 50px;
+    background-color: #f6bc42;
+    text-align: center;
+}
+
+.ft p{
+    padding-top: 10px;
+}
+
+/*project*/
+
+.project{
+    display: flex;
+    padding-top: 350px;
+    text-align: center;
+}
+
+.project-gl{
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    margin: 0 auto;
+    width: 900px;
+    border-top: 20px solid #f6bc42;
+    box-shadow: 2px 2px 3px;
+}
+
+.project-img{
+    padding: 10px;
+    width: 200px;
+}
+
+
