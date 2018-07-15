@@ -232,11 +232,26 @@ textarea{
 /*RWD*/
 /*najwieksza rozdzielczosc laptopów*/
 @media only screen and (max-width: 1800px) {
+    .nav-rs{ display: none}
+
 
 }
 
 /*średni telefon lub IPad*/
 @media only screen and (max-width: 680px) {
+    .container {width: 400px}
+    .menu{ display: none;
+    }
+    .nav-rs {display: block}
+    .news { width: 400px; height: 700px}
+    .news-gl{ float: left; width: 400px;}
+    .project{ width: 400px; height: 100%}
+    .project-gl {height: 100%}
+    .project-conten{ height: 100%}
+    .featured-gl{ height: 100%}
+    .contact-gl{ width: 400px}
+    .formulage { display: none}
+    .contact-gl .text { display: none}
 
 }
 
