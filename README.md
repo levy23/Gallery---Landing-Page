@@ -1,4 +1,4 @@
-# land
+# landing-page
 
 Full responsive landing page. There is smooth scrolling written in JavaScript in this project.
 
